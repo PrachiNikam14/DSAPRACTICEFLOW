@@ -14,5 +14,7 @@ public class Question1 {
             N=N/10;
         }
         System.out.println("The number of digits are : " +count);
+        
     }
+
 }
