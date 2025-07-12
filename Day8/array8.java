@@ -1,4 +1,4 @@
-// Union of Two Sorted Arrays
+// Union of Two Sorted Arrays - Optimal
 package DSAPRACTICEFLOW.Day8;
 
 import java.util.ArrayList;
