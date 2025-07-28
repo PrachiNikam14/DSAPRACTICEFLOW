@@ -8,7 +8,7 @@ public class array21 {
     public static int[] Twosum(int arr[] , int target){
         int ans[] = new int[2];
         ans[0] = ans[1] = -1;
-        HashMap <Integer,Integer > mpp = new HashMap<>();
+        HashMap <Integer, Integer > mpp = new HashMap<>();
         for (int i = 0; i < arr.length; i++) {
            int nums = arr[i];
            int moreneeded = target - nums;

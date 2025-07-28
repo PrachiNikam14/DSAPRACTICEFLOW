@@ -12,11 +12,12 @@ public class array22 {
             int sum = arr[left] + arr[right];
             if (sum == target) {
                 return "YES";
-            } else if (sum < target) left++;
+            } else if (sum < target) 
+            left++;
             else right--;
         }
         return "NO";
-    }
+    }   
     public static void main(String[] args) {
         int n = 5;
         int[] arr = {2, 6, 5, 8, 11};
